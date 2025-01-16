@@ -2,19 +2,6 @@ import random
 import sys
 from enum import Enum
 
-# value = input("Please enter a value: ")
-# while True:
-#     playerchoice = input("Enter...\n1 for Rock\n2 for Paper\n3 for Scissors\n\n")
-#     if type(playerchoice) != str:
-#         print("You must enter 1, 2 or 3")
-#     else:
-#         break
-#     while True:
-#         if playerchoice < 1 or playerchoice > 3:
-#             print("You must enter 1, 2 or 3")
-#         else:
-#             break
-
 class RPS(Enum):
     ROCK = 1
     PAPER = 2
