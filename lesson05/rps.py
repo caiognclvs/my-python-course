@@ -32,8 +32,8 @@ computerchoice = random.choice("123")
 computer = int(computerchoice)
 
 print("")
-print("You chose " + playerchoice)
-print("Python chose " + computerchoice)
+print("You chose " + str(RPS(player)).replace('RPS.', ''))
+print("Python chose " + str(RPS(computer)).replace('RPS.', ''))
 print("")
 
 if player == 1 and computer == 3:
